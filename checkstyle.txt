@@ -1,0 +1,21 @@
+Starting audit...
+[ERROR] /home/bogdan/Documents/POO_JAVA/etapa2/./src/app/CommandRunner.java:16:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /home/bogdan/Documents/POO_JAVA/etapa2/./src/app/CommandRunner.java:17:39: Name 'objectMapper' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'. [ConstantName]
+[ERROR] /home/bogdan/Documents/POO_JAVA/etapa2/./src/app/searchBar/SearchBar.java:10:40: Using the '.*' form of import should be avoided - app.searchBar.FilterUtils.*. [AvoidStarImport]
+[ERROR] /home/bogdan/Documents/POO_JAVA/etapa2/./src/app/searchBar/FilterUtils.java:8:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /home/bogdan/Documents/POO_JAVA/etapa2/./src/app/player/PlayerStats.java:25:9: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] /home/bogdan/Documents/POO_JAVA/etapa2/./src/app/player/Player.java:164:32: Parameter time should be final. [FinalParameters]
+[ERROR] /home/bogdan/Documents/POO_JAVA/etapa2/./src/app/audio/Collections/Playlist.java:178:50: 'followers' hides a field. [HiddenField]
+[ERROR] /home/bogdan/Documents/POO_JAVA/etapa2/./src/app/audio/Collections/AlbumSingleton.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] /home/bogdan/Documents/POO_JAVA/etapa2/./src/app/audio/Collections/AlbumSingleton.java:14:41: Name 'albumSingleton' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'. [ConstantName]
+[ERROR] /home/bogdan/Documents/POO_JAVA/etapa2/./src/app/audio/Collections/AlbumSingleton.java:29:26: Parameter album should be final. [FinalParameters]
+[ERROR] /home/bogdan/Documents/POO_JAVA/etapa2/./src/app/user/User.java:4:29: Using the '.*' form of import should be avoided - app.audio.Collections.*. [AvoidStarImport]
+[ERROR] /home/bogdan/Documents/POO_JAVA/etapa2/./src/app/user/User.java:298:9: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] /home/bogdan/Documents/POO_JAVA/etapa2/./src/app/user/User.java:616:5: Method length is 202 lines (max allowed is 150). [MethodLength]
+[ERROR] /home/bogdan/Documents/POO_JAVA/etapa2/./src/app/Admin.java:12:20: Using the '.*' form of import should be avoided - fileio.input.*. [AvoidStarImport]
+[ERROR] /home/bogdan/Documents/POO_JAVA/etapa2/./src/app/Admin.java:14:17: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]
+[ERROR] /home/bogdan/Documents/POO_JAVA/etapa2/./src/app/Admin.java:16:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /home/bogdan/Documents/POO_JAVA/etapa2/./src/app/Admin.java:17:41: Name 'albumSingleton' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'. [ConstantName]
+[ERROR] /home/bogdan/Documents/POO_JAVA/etapa2/./src/main/CommandFactory.java:309:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+Audit done.
+Checkstyle ends with 18 errors.
